@@ -1,0 +1,51 @@
+{
+  "name": "mini-react-compiler",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A mini version of React Compiler inspired by bootleg-react-compiler",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "compile": "tsx src/compiler/cli.ts",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/generator": "^7.23.0",
+    "@babel/parser": "^7.23.0",
+    "@babel/types": "^7.23.0",
+    "@monaco-editor/react": "^4.7.0",
+    "@tailwindcss/postcss": "^4.1.17",
+    "@xterm/addon-fit": "^0.10.0",
+    "autoprefixer": "^10.4.22",
+    "chalk": "^4.1.2",
+    "lucide-react": "^0.553.0",
+    "monaco-editor": "^0.54.0",
+    "postcss": "^8.5.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^4.1.17",
+    "xterm": "^5.3.0",
+    "xterm-addon-fit": "^0.8.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/babel__core": "^7.20.3",
+    "@types/babel__generator": "^7.6.6",
+    "@types/babel__parser": "^7.1.1",
+    "@types/node": "^20.8.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.1.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "tsx": "^4.7.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0",
+    "vitest": "^1.0.0"
+  }
+}
